@@ -1,0 +1,13 @@
+[
+  { "item": "Moon", "cubicmiles": 5271286044.26872 },
+  { "item": "Mercury", "cubicmiles": 14593229837.0032 },
+  { "item": "Venus", "cubicmiles": 222738784287.86664 },
+  { "item": "Earth", "cubicmiles": 259875273343.7615 },
+  { "item": "Mars", "cubicmiles": 39133533052.55531 },
+  { "item": "Jupiter", "cubicmiles": 343382917901664.5 },
+  { "item": "Saturn", "cubicmiles": 198439106552715.3 },
+  { "item": "Uranus", "cubicmiles": 16394290960463.318 },
+  { "item": "Neptune", "cubicmiles": 15000720695224.533 },
+  { "item": "Pluto", "cubicmiles": 1532385785.40274 },
+  { "item": "Sun", "cubicmiles": 338102617703616400 }
+]

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="language" content="english" />
+    <meta http-equiv="content-type" content="text/html" />
+    <meta name="author" content="Matt Busche" />
+    <meta name="description" content="How many can fit" />
+    <meta name="keywords" content="how many can fit" />
+    <meta name="robots" content="index,follow,noodp" />
+    <title>How Many Can Fit Calculator</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h1>How Many Can Fit?</h1>
+    <h2 id="winner" class="red">Please choose items for comparison.</h2>
+    <div class="container">
+      <div class="itemOne">
+        <label for="itemOneInput">
+          <h2>Item One</h2>
+          <input id="itemOneInput" list="itemOne" autofocus />
+        </label>
+        <datalist id="itemOne"></datalist>
+        <div id="one"></div>
+      </div>
+
+      <div class="itemTwo">
+        <label for="itemTwoInput">
+          <h2>Item Two</h2>
+          <input id="itemTwoInput" list="itemTwo" />
+        </label>
+        <datalist id="itemTwo"></datalist>
+        <div id="two"></div>
+      </div>
+    </div>
+    <p />
+    <button id="reset" class="btn">Start over</button>
+    <script src="js/fit.js"></script>
+  </body>
+</html>
